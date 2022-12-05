@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.display {
+  position: absolute;
+  border: 1px solid #F6F6F6;
+  padding: 7px;
+  z-index: 1;
+  background-color: #F6F6F6;
+  border-radius: 15px;
+  transition: all 1px ease;
+  font-family: 'Playfair Display', serif;
+  width: 260px;
+  font-size: 13px;
+  opacity: 0;
+  animation: ani 1.5s forwards;
+}
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.airtable-en {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: green;
+  cursor: pointer;
+}
+
+.airtable-cn {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: green;
+  cursor: pointer;
+}
+
+.airtable-tw {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: green;
+  cursor: pointer;
+}
+
+.airtable-hk {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: green;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.form {
+  position: absolute;
+  border: 1px solid #F6F6F6;
+  padding: 15px;
+  z-index: 1;
+  background-color: #F6F6F6;
+  border-radius: 15px;
+  transition: all 1px ease;
+  font-family: 'Playfair Display', serif;
+}
+
+.lang-label {
+	margin-bottom: 5px;
+}
+
+.button-names-en, .button-names-ch, .button-names-hk, .button-names-tw, .button-translate {
+	background-color: #4D9DFE; 
+	color: white; 
+	padding: 5px; 
+	border: 1px solid #4D9DFE; 
+	border-radius: 15px;
+}
+
+hr {
+  border-top: 1px dashed black;
+}
